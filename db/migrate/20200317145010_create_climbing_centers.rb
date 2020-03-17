@@ -22,35 +22,35 @@ class CreateClimbingCenters < ActiveRecord::Migration[5.2]
       t.boolean :workout_space
       t.boolean :yoga_classes
       t.boolean :shop
-      t.decimal :standard_entry
-      t.decimal :standard_entry_reduced
-      t.decimal :standard_entry_under_twelve
-      t.decimal :standard_entry_under_five
-      t.decimal :standard_entry_under_six
-      t.decimal :happy_hours_entry
-      t.decimal :happy_hours_entry_reduced
-      t.decimal :ten_entries
-      t.decimal :ten_entries_reduced
-      t.decimal :ten_entries_happy_hours
-      t.decimal :ten_entries_happy_hours_reduced
-      t.decimal :ten_entries_under_twelve
-      t.decimal :ten_entries_under_six
-      t.decimal :ten_entries_under_five
-      t.decimal :yearly_subscription
-      t.decimal :yearly_subscription_reduced
-      t.decimal :yearly_subscription_couple
-      t.decimal :yearly_subscription_couple_reduced
-      t.decimal :yearly_subscription_child
-      t.decimal :yearly_subscription_one_center
-      t.decimal :yearly_subscription_reduced_one_center
-      t.decimal :yearly_subscription_one_center_under_twelve
-      t.decimal :yearly_subscription_happy_hours
-      t.decimal :monthly_subscription
-      t.decimal :monthly_subscription_reduced
-      t.decimal :monthly_subscription_happy_hours
-      t.decimal :monthly_subscription_couple
-      t.decimal :monthly_subscription_couple_reduced
-      t.decimal :monthly_subscription_child
+      t.integer :standard_entry
+      t.integer :standard_entry_reduced
+      t.integer :standard_entry_under_twelve
+      t.integer :standard_entry_under_five
+      t.integer :standard_entry_under_six
+      t.integer :happy_hours_entry
+      t.integer :happy_hours_entry_reduced
+      t.integer :ten_entries
+      t.integer :ten_entries_reduced
+      t.integer :ten_entries_happy_hours
+      t.integer :ten_entries_happy_hours_reduced
+      t.integer :ten_entries_under_twelve
+      t.integer :ten_entries_under_six
+      t.integer :ten_entries_under_five
+      t.integer :yearly_subscription
+      t.integer :yearly_subscription_reduced
+      t.integer :yearly_subscription_couple
+      t.integer :yearly_subscription_couple_reduced
+      t.integer :yearly_subscription_child
+      t.integer :yearly_subscription_one_center
+      t.integer :yearly_subscription_reduced_one_center
+      t.integer :yearly_subscription_one_center_under_twelve
+      t.integer :yearly_subscription_happy_hours
+      t.integer :monthly_subscription
+      t.integer :monthly_subscription_reduced
+      t.integer :monthly_subscription_happy_hours
+      t.integer :monthly_subscription_couple
+      t.integer :monthly_subscription_couple_reduced
+      t.integer :monthly_subscription_child
       t.text :conditions
 
       t.belongs_to :city
