@@ -1,0 +1,2 @@
+class ClimbingCenter < ApplicationRecord
+end
