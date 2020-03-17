@@ -1,0 +1,17 @@
+<div class="search-filter">
+       <form>
+         <span>Je cherche une salle avec  :</span>
+         <div class="accolades-panel">
+           <label>
+            <dd>hammam</dd>
+             <input type="checkbox" name="hammam" value="false">
+           </label>
+         </div>
+       </form>
+     </div>
+
+     <div class="">
+       <% @climbing_centers.each{ |space| %>
+       <%= space.name %>
+      <% } %>
+     </div>
